@@ -6,6 +6,7 @@ import { createInvoice } from '@/app/lib/actions'
 
 export default function Form({ customers }: { customers: CustomerField[] }) {
   return (
+    // @ts-ignore @ts-expect-error Server Component
     <form action={createInvoice}>
       <div className='rounded-md bg-gray-50 p-4 md:p-6'>
         {/* Customer Name */}
