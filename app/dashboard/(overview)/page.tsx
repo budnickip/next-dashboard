@@ -6,7 +6,7 @@ import { Suspense } from 'react'
 import { CardsSkeleton, LatestInvoicesSkeleton, RevenueChartSkeleton } from '@/app/ui/skeletons'
 
 // Note: inaczej dane ktore pobieram z bazy danych sa pobierane tylko raz, podczas deployu apki - potestuj to jeszcze
-export const dynamic = 'force-dynamic'
+// export const dynamic = 'force-dynamic'
 
 //Page is an async component. This allows you to use await to fetch data.
 export default async function Page() {
